@@ -1,1 +1,1 @@
-# This is a demo for CTACH：Category correlations embedded semantic centers hashing for cross-modal retrieval
+# This is a demo for CATCH：Category correlations embedded semantic centers hashing for cross-modal retrieval
