@@ -13,7 +13,7 @@ YTest = bsxfun(@minus, YTest, mean(YTrain, 1)); YTrain = bsxfun(@minus, YTrain, 
 [XKTrain,XKTest] = Kernelize(XTrain, XTest, 1500); [YKTrain,YKTest]=Kernelize(YTrain,YTest, 1500);
 XKTest = bsxfun(@minus, XKTest, mean(XKTrain, 1)); XKTrain = bsxfun(@minus, XKTrain, mean(XKTrain, 1));
 YKTest = bsxfun(@minus, YKTest, mean(YKTrain, 1)); YKTrain = bsxfun(@minus, YKTrain, mean(YKTrain, 1));
-%% SC-CMH
+%% CATCH
 for kk= 1:length(nbitset)
     
 param.nbits = nbitset(kk);
